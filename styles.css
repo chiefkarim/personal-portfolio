@@ -44,6 +44,32 @@ margin: 5vw;
     max-width:50px;  
       
 }
-.socialMedia>a>svg:hover{
+a>svg:hover{
     fill: #3399cc;
+}
+.myWork{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    margin: 4vw;
+    
+}
+
+.myWork>section{
+    display: grid;
+    width: 20vw;
+    grid-template-rows:60% 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.myWork>section>section{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 26px 26px;
+    grid-template-rows: auto auto;
+    padding:.6rem;
+    
+}
+.myWork>section>section>h2{
+    margin: 0;
+    font-size: large;
 }
