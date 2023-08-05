@@ -73,3 +73,20 @@ a>svg:hover{
     margin: 0;
     font-size: large;
 }
+footer{
+    display: flex;
+    padding: 4vw;
+    gap: 2vw;
+    color:#fff ;
+    background-color: #3399cc;
+    
+}
+footer svg:hover{
+    fill: #fff;
+
+}
+
+svg{
+    vertical-align: middle;
+    padding: 1px;
+}
