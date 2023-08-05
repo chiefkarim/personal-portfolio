@@ -35,6 +35,6 @@ margin: 5vw;
     max-width:50px;  
       
 }
-.socialMedia>a>image:hover{
-    background-color: #3399cc;
+.socialMedia>a>svg:hover{
+    fill: #3399cc;
 }
